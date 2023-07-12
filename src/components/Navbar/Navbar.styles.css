@@ -1,0 +1,52 @@
+.navbar
+{
+    margin: 55px 10vw;
+    height: 58px;
+    display: flex;
+    align-items: center;
+
+}
+.navbar .title
+{
+    margin-right: 70px;
+}
+.navbar .information
+{
+    margin-left: auto;
+}
+.navbar .information .sign-in
+{
+    font-size: 1.2vw;
+    margin-right: 2vw;
+}
+.navbar .information .sign-up
+{
+    height: 58px;
+    width: 8vw;
+    border-radius:5px;
+    background-color: #FF4820;
+    color: white;
+    border: none;
+    font-size:1.2vw;
+    font-weight: 100;
+    cursor: pointer;
+}
+.navbar .sections
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.navbar .section
+{
+    font-size: 1.2vw;
+}
+
+.blur
+{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 70VW;
+    left: 0;
+}
