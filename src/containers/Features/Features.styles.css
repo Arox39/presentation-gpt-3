@@ -1,0 +1,93 @@
+.features-container 
+{
+    z-index: -10;
+    background-color: #042c54;
+    width: 80vw;
+    height: 45.5vw;
+    position: relative;
+    margin: 10vw auto;
+}
+.whatis
+{
+    display: flex;
+    height:40%;
+}
+
+.whatis .title 
+{
+    position: relative;
+    font-weight: 800;
+    font-size: 26px;
+    margin: 4vw 0 0 4vw;
+    letter-spacing: -0.96px;
+}
+.whatis .title::before
+{
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 2.7vw;
+    height: 3px;
+    background: linear-gradient(143deg, #AE67FA 0%, #F49867 97.40%), #FFF;
+}
+.whatis .description 
+{
+    margin: 5vw 5vw 0 auto;
+    font-size: 1em;
+    width: 59%;
+    color: #81AFDD;
+    font-weight: 500;
+    line-height: 30px;  
+}
+.possibilities
+{
+    height: 60%;
+}
+.title-container
+{
+    display: flex;
+    height: 30%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.title-container .gradient-text
+{
+    margin-left: 4vw;
+    font-size: 2.2vw;
+    width: 40%;
+    font-weight: 800;
+    line-height: 3vw;
+}
+.title-container .text
+{
+    color: #FF8A71;
+    font-weight: 500;
+    margin-right:4vw;
+}
+
+.possibilities-container 
+{
+    height: 70%;
+    display: flex;
+    margin: 0 4vw;
+}
+.blur04, 
+.blur05
+{
+    position: absolute;
+}
+.blur04
+{
+    width: 26vw;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+.blur05
+{
+    width: 22vw;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}

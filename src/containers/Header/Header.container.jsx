@@ -3,7 +3,8 @@ import "./Header.styles.css"
 import people from "../../assets/people.png"
 import AI from "../../assets/ai.png"
 import blur03 from "../../assets/blur-03.png"
-let Header = () => {
+
+const Header = () => {
     return (
         <div className="header">
             <div className="content">

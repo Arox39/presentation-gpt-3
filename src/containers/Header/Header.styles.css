@@ -7,17 +7,13 @@
     margin-left: 10vw;
     width: 40vw;
 }
-.gradient-text
+.header .gradient-text
 {
     font-size: 4vw;
     height: 14.7vw;
     width: 40vw;
     font-weight: 800;
     letter-spacing: -0.16vw;     
-    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-    background-clip: text; 
-    -webkit-background-clip:text;
-    color: transparent;
     line-height: 70px;
 }
 
@@ -83,9 +79,6 @@
     top: -60px;
     left: 60px;
 }
-
-
-
 .blur03
 {
     position: absolute;

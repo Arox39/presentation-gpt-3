@@ -1,7 +1,9 @@
 import "./Navbar.styles.css"
 import logo from "../../assets/logo.svg"  
 import blur01 from "../../assets/blur-01.png"  
-let Navbar = () => {
+
+
+const Navbar = () => {
     return (
         <div className="navbar">
             <a href="#" className="title">
