@@ -8,7 +8,7 @@
 }
 .navbar .title
 {
-    margin-right: 70px;
+    margin-right: 4.5vw;
 }
 .navbar .information
 {
@@ -21,15 +21,16 @@
 }
 .navbar .information .sign-up
 {
+
+    cursor: pointer;
     height: 58px;
-    width: 8vw;
+    width: 10vw;
     border-radius:5px;
     background-color: #FF4820;
     color: white;
     border: none;
     font-size:1.2vw;
-    font-weight: 100;
-    cursor: pointer;
+    font-weight: 400;
 }
 .navbar .sections
 {

@@ -59,8 +59,12 @@ body
     background-color: #040C18;
     font-family:'Manrope', sans-serif;
     color: #FFFFFF;
+	overflow-x: hidden;
 }
-
+*
+{
+	font-family: 'Manrope', sans-serif;
+}
 ::-webkit-scrollbar 
 {
 	width: 10px; 
@@ -75,3 +79,4 @@ body
 	border-radius: 5px; 
 }
   
+

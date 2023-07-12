@@ -7,6 +7,7 @@ export let App = () => {
     return (
         <div>
             <Navbar/>
+            <Header/>
         </div>
     )
 }
