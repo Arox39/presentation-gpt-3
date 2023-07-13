@@ -6,7 +6,7 @@ import blur03 from "../../assets/blur-03.png"
 
 const Header = () => {
     return (
-        <div className="header">
+        <div className="header" id="header">
             <div className="content">
                 <h1 className="gradient-text"> Let&apos;s Build Something amazing with GPT-3 OpenAI </h1>   
                 <p className="description">

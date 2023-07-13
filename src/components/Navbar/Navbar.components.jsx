@@ -5,7 +5,7 @@ import blur01 from "../../assets/blur-01.png"
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar" id="navbar">
             <a href="#" className="title">
                 <img src={logo}/>
             </a>
@@ -14,16 +14,16 @@ const Navbar = () => {
                     <a href="#">Home</a>
                 </li>
                 <li className="section">
-                    <a href="#">What is GPT?</a>
+                    <a href="#whatis">What is GPT?</a>
                 </li>
                 <li className="section">
-                    <a href="#">Open AI</a>
+                    <a href="#features">Open AI</a>
                 </li>
                 <li className="section">
-                    <a href="#">Case Studies</a>
+                    <a href="#possibility">Case Studies</a>
                 </li>
                 <li className="section">
-                    <a href="#">Library</a>
+                    <a href="#blog">Library</a>
                 </li>
             </ul>
             <div className="information">

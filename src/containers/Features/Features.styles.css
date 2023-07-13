@@ -1,0 +1,64 @@
+.features
+{
+    height: 431px;
+    width: 80vw;
+    margin: 13vw 10vw 5.5vw 10vw;
+    display: flex;
+}
+.features .title-container
+{
+    width: 50%;
+    height: 100%;
+}
+.features .title-container .gradient-text
+{
+
+    width: 70%;
+    margin:0;
+    margin-bottom: 2.5vw;
+}
+.features .title-container .description 
+{
+    color: #FF8A71;
+    font-weight: 500;
+    font-size: 1em;
+}
+.features-container
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.features-container .feature
+{
+    flex-direction: row;
+    height: 90px;
+    width: 100%;
+}
+
+.features-container .feature .title 
+{
+    margin: 25px 0;
+    font-size: 1.18vw;
+    width: 25%;
+}
+.features-container .feature .content
+{
+    width: 21.7vw;
+    height: 100%;
+    font-size: 0.92vw;
+    margin: 0 0 0 auto;
+}
+
+
+
+
+.blur02
+{
+    position: absolute;
+    left: 0;
+    top: 110vh;
+    z-index: -1;
+    width: 80vw;
+}

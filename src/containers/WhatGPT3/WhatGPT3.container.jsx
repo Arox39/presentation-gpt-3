@@ -7,7 +7,7 @@ import Feature from "../../components/Feature/Feature.component.jsx"
 
 let WhatGPT3 = () => {
     return (
-        <div className="whatis-container">
+        <div className="whatis-container" id="whatis">
             <div className="whatis">
                 <h1 className="title">What is GPT-3</h1>
                 <p className="description">

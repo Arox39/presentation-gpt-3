@@ -42,9 +42,9 @@
 }
 .possibilities
 {
-    height: 60%;
+    height: 60%; 
 }
-.title-container
+.possibilities .title-container
 {
     display: flex;
     height: 30%;
