@@ -5,7 +5,7 @@ import possibility from "../../assets/possibility.png"
 const Possibility = () => {
     return (
         <section id="possibility" className="possibility">
-            <img src={possibility}/>
+            <img src={possibility} alt="women in vr "/>
             <div className="possibility-container">
                 <h4 className="top-subtitle">Request Early Access to Get Started</h4>
                 <h1 className="gradient-text">The possibilities are beyond your imagination</h1>

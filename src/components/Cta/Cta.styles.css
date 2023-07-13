@@ -1,0 +1,40 @@
+.cta 
+{
+    background:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    width: 80vw;
+    margin: 10vw;
+    height: 11vw;
+    color: black;
+    border-radius:11px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta .title-container
+{
+    margin-left: 3vw;
+}
+.cta .title-container .title
+{
+    font-weight: 800;
+    font-size: 1.55vw;
+}
+.cta .title-container .subtitle
+{
+    font-weight: 500;
+    font-size: 0.78vw;
+    margin-bottom: 1vw;
+}
+.cta .btn 
+{
+    width: 12.3vw;
+    height: 33%;
+    font-weight: 700;
+    font-size: 1.1vw;
+    border-radius: 40px;
+    margin-right: 2.7vw;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
