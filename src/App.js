@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar.components.jsx"
 import Brand from "./components/Brand/Brand.components.jsx"
 import Header from "./containers/Header/Header.container.jsx"
-import Features from "./containers/Features/Features.container.jsx"
+import WhatGPT3 from "./containers/WhatGPT3/WhatGPT3.container.jsx"
 
 
 export const App = () => {
@@ -12,7 +12,7 @@ export const App = () => {
             <Navbar/>
             <Header/>
             <Brand/>
-            <Features/>
+            <WhatGPT3/>
         </div>
     )
 }

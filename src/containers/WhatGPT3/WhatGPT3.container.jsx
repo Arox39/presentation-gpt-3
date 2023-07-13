@@ -1,13 +1,13 @@
-import "./Features.styles.css"
+import "./WhatGPT3.styles.css"
 
 import blur4 from "../../assets/Ellipse 39.png"
 import blur5 from "../../assets/Ellipse 40.png"
 
 import Feature from "../../components/Feature/Feature.component.jsx"
 
-let Features = () => {
+let WhatGPT3 = () => {
     return (
-        <div className="features-container">
+        <div className="whatis-container">
             <div className="whatis">
                 <h1 className="title">What is GPT-3</h1>
                 <p className="description">
@@ -34,4 +34,4 @@ let Features = () => {
 }
 
 
-export default Features
+export default WhatGPT3
