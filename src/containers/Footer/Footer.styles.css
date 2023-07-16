@@ -1,0 +1,72 @@
+.footer 
+{
+    background-color: #031B34;
+    width: 100vw;
+    height: 95vh;
+    padding-top: 15vh;
+    position: relative;
+}
+.footer .gradient-text
+{
+    font-size: 4vw;
+    text-align: center;
+    width: 55%;
+    font-weight: 800;
+    line-height: 4.8vw;
+    letter-spacing: -0.1vw;
+    margin: 0 auto;
+    margin-bottom: 4.2vw;
+}
+.footer .btn 
+{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #FFF;
+    font-size: 1.18vw;
+    padding: 1.3vw 1.9vw;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.footer .big-list 
+{
+    display: flex;
+    margin: 15vh 15vw 0 15vw;
+    justify-content: space-between;
+}
+.footer .title-container .description 
+{
+    font-size: 0.78vw;
+    width: 55%;
+    margin-top: 1.7vw;
+}
+.footer .small-list-container
+{
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+}
+.footer .small-list-container .title 
+{
+    font-weight: 700;
+}
+.footer .small-list
+{
+    margin-top: 2.4vw;
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+}
+.footer .small-list .small-list-element 
+{
+    margin-top: 1.6vw;
+    font-size: 0.78vw;
+}
+.footer .copyright
+{
+    font-size: 0.78vw;
+    position: absolute; 
+    bottom: 1.7vw;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,36 @@
+.article
+{
+    height: 100%;
+    position: relative;
+    background: #042C54;
+}
+.article img 
+{
+    height: 40%;
+    width: 100%;
+    background: #040C18;
+}
+.article .date
+{
+    margin: 8% 0 0 6.5%;
+    font-size: 0.8vw;
+    font-weight: 700;
+    line-height: 2.3vw;
+}
+.article .title 
+{
+    font-size: 25px;
+    font-weight: 800;
+    width: 90%;
+    margin-left: 1.7vw;
+    line-height: 30.287px; 
+}
+.article .more 
+{
+    position: absolute;
+    font-size: 0.8vw;
+    font-weight: 700;
+    cursor: pointer;
+    bottom: 5%;
+    left: 6.5%;
+}

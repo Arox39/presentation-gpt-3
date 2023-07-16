@@ -7,7 +7,8 @@ import WhatGPT3 from "./containers/WhatGPT3/WhatGPT3.container.jsx"
 import Features from "./containers/Features/Features.container.jsx"
 import Possibility from "./containers/Possibility/Possibility.container.jsx"
 import Cta from "./components/Cta/Cta.component.jsx";
-
+import Blog from "./containers/Blog/Blog.container.jsx";
+import Footer from "./containers/Footer/Footer.container.jsx"
 export const App = () => {
     return (
         <div>
@@ -18,6 +19,8 @@ export const App = () => {
             <Features/>
             <Possibility/>
             <Cta/>
+            <Blog/>
+            <Footer/>
         </div>
     )
 }

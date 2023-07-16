@@ -1,0 +1,51 @@
+.blog
+{
+    width: 80vw;
+    margin: 10vw;
+}
+.blog .gradient-text 
+{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    font-size: 4vw;
+    font-weight: 800;
+    line-height: 5vw;
+    letter-spacing: -0.17vw;
+}
+.article-container
+{
+    display: flex;
+    height: 49vw;
+}
+.article-containerA 
+{
+    height: 100%;
+    flex: 1;
+}
+.article-containerB 
+{
+    margin-left: 50px;
+    height: 100%;
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+
+}
+.article-containerB div
+{
+    width: 327px;
+    height: 323px;
+}
+
+.one, .three
+{
+    margin-left: auto;
+}
+.one, .two
+{
+    margin-top: auto;
+}
